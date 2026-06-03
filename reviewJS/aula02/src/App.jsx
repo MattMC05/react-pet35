@@ -13,7 +13,6 @@ function App() {
   return (
     <>
       <h1>Nome do Curso</h1>
-      <h3>tudo está sendo renderizado dentro desse return</h3>
       <Alunos alunos={alunos}/>
       <br/>
       <ListaPendencia alunos={alunos}/>

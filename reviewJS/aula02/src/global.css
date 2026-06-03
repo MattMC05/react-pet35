@@ -1,54 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
-  margin:0;
+  margin:auto;
   padding:0;
   box-sizing: border-box;
   font-family: 'Inter';
+  align-items: center;
 }
 
 body{
   /*border: 2px dotted red;*/
   max-width: 1200px;
   padding: 32px;
-  background-color:  #f8fafc;
+  background-color:  #000d1a;
   font-size: 20px;
 }
 
 h1{
+  display: flex;
   font-size: 48px;
   font-weight: 700;
-  color: #0f172a;
+  color: #dde8ff;
+  margin-bottom: 22px;
+  justify-content: center;
 }
 .titulo-table{
   display: flex;
-  align-items: center;
   gap: 10px;
   margin-bottom: 0;
+  justify-content: center;
 }
 .titulo-table svg{
   color: #2563eb;
   font-size: 28px;
+  margin: 0;
 }
 .titulo-table h2{
   font-size: 28px;
   font-weight: 700;
-  color: #0f172a;
-}
-h3{
-  margin-bottom: 22px;
+  color: #dde8ff;
+  margin: 0;
 }
 
 table{
   width: 100%;
   margin-bottom: 20px;
-  background: white;
+  background: #6d6d6d;
   border-radius: 12px;
 }
 table thead{
-  background: #f8fafc;
+  background: #000d1a;
 }
 table th{
-  color: #475569;
+  color: #dde8ff;
   text-align: left;
   padding: 16px;
   font-size: 14px;
@@ -57,4 +60,5 @@ table th{
 table td{
   padding: 16px;
   border-top: 1px solid #e2e8f0;
+  color: #e6e6e6;
 }
